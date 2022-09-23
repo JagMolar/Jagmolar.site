@@ -21,7 +21,7 @@ function sendEmail() {
 				"\n. \nAsunto: "+texto
 				link.click()
 
-				alert("Gracias "+nombre+"por usar mi área de contacto. \nSu mensaje ha sido redirigido para el envío con exito.")
+				alert("Gracias "+nombre+" por usar mi área de contacto. \nSu mensaje ha sido redirigido para el envío con exito.")
 				  
 				document.getElementById("contacto").reset();
 			
