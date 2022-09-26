@@ -63,6 +63,9 @@ console.log("funciona");
 
 /* Title focus START */
 /* Changing the title text when the focus is out */
+/*
+spanish version
+ */
   var title = document.title;
   var lang = document.getElementById("title");
 
@@ -73,7 +76,9 @@ console.log("funciona");
   window.addEventListener("focus", function(){
     document.title = title;
   });
-
+/*
+english version
+ */
   if(lang){
 	var blurMessage = "I'm Juan, I still here!!";
   window.addEventListener("blur", function(){
