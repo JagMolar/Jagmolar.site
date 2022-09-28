@@ -64,7 +64,7 @@ console.log("funciona");
 /* Title focus START */
 /* Changing the title text when the focus is out */
 /*
-spanish version
+   Spanish version
  */
   var title = document.title;
   var lang = document.getElementById("title");
@@ -77,7 +77,7 @@ spanish version
     document.title = title;
   });
 /*
-english version
+   English version
  */
   if(lang){
 	var blurMessage = "I'm Juan, I still here!!";
