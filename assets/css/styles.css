@@ -1637,6 +1637,24 @@ input, select, textarea {
 				margin-bottom:0px;
 			}
 
+			#main article .type-square {
+				list-style-type:square;
+			}
+
+			#main article .type-none {
+				list-style-type:none;
+			}
+
+			#main .lighting {
+				color:#2fbbbb;
+			}
+
+			#main .docfile {
+				width: 3em;
+			}
+
+
+
 		@media screen and (max-width: 736px) {
 
 			#main article {
@@ -1761,6 +1779,7 @@ ul li i{
 .scrollup{
 	bottom: 40px;
 	color:antiquewhite;
+	display:inline;
 	font-size: 42px;
 	height: 40px;
 	text-align: center;
